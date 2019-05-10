@@ -1,0 +1,118 @@
+#Page {
+    width: 100%;
+    padding-top: 0px;
+    /* The mage used */
+    background-image: url("../Assets/p2.jpg");
+    /* Full height */
+    height: 2500px;
+    /* Center and scale the image nicely */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#close {
+    height: 40px;
+    padding-bottom: 30px;
+}
+
+#link1 {
+    padding-top: 70px;
+    font-size: 70px;
+    padding-bottom: 200px;
+}
+
+#link2 {
+    font-size: 70px;
+    padding-bottom: 200px;
+}
+
+#link3 {
+    font-size: 70px;
+    padding-bottom: 200px;
+}
+
+#link4 {
+    font-size: 70px;
+    padding-bottom: 200px;
+}
+
+#link5 {
+    font-size: 70px;
+    padding-bottom: 200px;
+}
+
+#mySidebar {
+    width: 20%;
+    padding-left: 5%;
+    display: none;
+    size: 80px;
+    position: fixed;
+}
+
+#quote {
+    font-size: 30px;
+    padding-left: 30%;
+    color: white;
+    padding-top: 900px;
+    font-size: 300px;
+}
+
+#quote1 {
+    font-size: 30px;
+    padding-left: 10%;
+    color: white;
+    padding-top: 100px;
+    font-size: 90px;
+}
+
+#FAQ {
+    background-image: url("../Assets/p1.jpg");
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 0px;
+    height: 4800px;
+    padding-left: 10%;
+    color: white;
+    margin-block-start: 0px;
+    ;
+}
+
+#question {
+    color: lightblue;
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    grid-template-rows: 3fr 3fr 3fr 3fr 3fr 3fr;
+    grid-gap: 8fr;
+    font-size: 50px;
+}
+
+#FAQHeading {
+    padding-left: 30%;
+}
+
+#input {
+    padding-left: 50%;
+}
+
+#textfield {
+    padding-top: 500px;
+    padding-left: 1%;
+}
+
+.afterLogin {
+    background-image: url("../Assets/p4.jpg");
+    height: 90000px;
+    width: 100%;
+    padding-top: 1000px;
+    background-repeat: repeat;
+    background-size: cover;
+    position: fixed;
+}
+
+.myhome {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50% 50%;
+    grid-gap: 20%;
+}
