@@ -333,7 +333,7 @@ a:hover {
 
 .form {
     background: rgba(19, 35, 47, 0.9);
-    padding: 40px;
+    padding: 50% 50%;
     max-width: 600px;
     margin: 40px auto;
     border-radius: 4px;
