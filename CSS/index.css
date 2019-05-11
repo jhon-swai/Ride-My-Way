@@ -10,6 +10,44 @@
     background-size: cover;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 100px;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding-left: 44px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 40px;
+    margin-left: 50px;
+    text-decoration: none;
+    font-size: 50px;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: transparent;
+}
+
 #close {
     height: 40px;
     padding-bottom: 30px;
@@ -202,10 +240,12 @@
 
 .gridfield {
     display: grid;
-    grid-template-columns: 5fr 5fr 5fr;
+    grid-template-columns: 4fr 2fr 5fr;
     grid-template-rows: 5fr;
     grid-gap: 4fr;
     padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 150px;
 }
 
 .gridfield1 {
@@ -389,7 +429,7 @@ textarea {
     background: none;
     background-image: none;
     border: 1px solid #a0b3b0;
-    color: #ffffff;
+    color: black;
     border-radius: 0;
     transition: border-color .25s ease, box-shadow .25s ease;
 }
@@ -435,7 +475,7 @@ textarea {
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: .1em;
-    background: #4d3d00;
+    background: transparent;
     color: #ffffff;
     transition: all 0.5s ease;
     -webkit-appearance: none;
@@ -465,33 +505,3 @@ textarea {
     color: white;
     margin-block-start: 0px;
 }
-
-
-/* 
-.offer-details {
-    padding-top: 9000%;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 40% 40% 40%;
-    grid-gap: 30%;
-    background-color: yellow;
-}
-
-#destination {
-    display: grid;
-    grid-template-columns: 20%;
-    grid-template-rows: 40% 40% 40%;
-    grid-gap: 60%;
-}
-
-#car-details {
-    background-color: red;
-}
-
-#comment-details {
-    background-color: yellow;
-}
-
-#offers {
-    background-color: palevioletred;
-} */
