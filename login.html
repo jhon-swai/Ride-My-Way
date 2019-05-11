@@ -1,0 +1,91 @@
+<!-- AFTER LOGIN -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="CSS/index.css" rel="stylesheet">
+</head>
+
+<body class="body-class">
+    <div class="afterLogin">
+
+
+
+
+        <div class="Offer-Ride">
+            <div id="navbar">
+                <a href="#" active>Offer Ride</a>
+                <a href="file:///E:/desktop/Andela/ALCwithforloopTz/RIDEMYWAY/Ride-My-Way/offer.html">Ride Offers</a>
+                <a href="file:///E:/desktop/Andela/ALCwithforloopTz/RIDEMYWAY/Ride-My-Way//actions.html" id="actions">Actions</a>
+                <a href="#contact" id="logout">Logout</a>
+            </div>
+
+            <div id="googleMap" style="width:100%;height:400px;"></div>
+            <!-- <div id="offer-details">
+                <div id="comment-details">
+
+                    <h1 style="font-size: 20px; text-decoration: underline; color: white;">ENTER YOUR DESTINATION</h1>
+                    <div id="destination">
+                        <div id="text-destination">
+                            <textarea rows="7" cols="90" placeholder="Describe your question here..."></textarea>
+                        </div>
+                        <div id="button- destination">
+                            <button type="button" onclick="alert('Hello world!')" style="font-size:20px; height: 70%; width: 40%;color: black"> Ask </button>
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+                <div id="car-details">
+
+                    <h1 style="font-size: 20px; text-decoration: underline; color: white;">CAR DETAILS:</h1>
+                    <textarea rows="7" cols="90" placeholder="Describe your question here..."></textarea>
+                </div>
+                <div id="offer">
+
+                    <h1 style="font-size: 20px; text-decoration: underline; color: white">offer</h1>
+                    <textarea rows="7" cols="90" placeholder="Describe your question here..."></textarea>
+                </div>
+            </div> -->
+            <div class="gridfield">
+
+                <div class="g1" style="padding: left 0px;">
+                    <h3 style="color:black">Enter your destination</h3>
+                    <textarea rows="3" cols="40" placeholder="Describe your question here..."></textarea>
+                </div>
+                <div class="g2">
+                    <h3 style="color:black">Enter your Ride details</h3>
+                    <!-- <p style="color:white">
+                        ( This include number of seats you offer Type of car, Your Car Registration details)
+                    </p> -->
+                    <textarea rows="3" cols="90" placeholder="Describe your question here..."></textarea>
+                </div>
+
+            </div>
+            <button class="button button4" style="color:black;margin-left: 500px; margin-top: 100px;padding: 20px;font-size: 30px;">Offer</button>
+
+        </div>
+
+
+
+    </div>
+    <script>
+        function myMap() {
+            var mapProp = {
+                center: new google.maps.LatLng(51.508742, -0.120850),
+                zoom: 5,
+            };
+            var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+        }
+    </script>
+
+
+
+</body>
+
+</html>
