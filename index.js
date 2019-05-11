@@ -6,7 +6,6 @@ function w3_close() {
     document.getElementById("mySidebar").style.display = "none";
 }
 
-
 $('.form').find('input, textarea').on('keyup blur focus', function(e) {
 
     var $this = $(this),
