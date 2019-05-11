@@ -4,7 +4,7 @@
     /* The mage used */
     background-image: url("../Assets/p2.jpg");
     /* Full height */
-    height: 2500px;
+    height: 3500px;
     /* Center and scale the image nicely */
     background-repeat: no-repeat;
     background-size: cover;
@@ -41,11 +41,11 @@ li a {
 }
 
 li a:hover:not(.active) {
-    background-color: #111;
+    background-color: #cc9900;
 }
 
 .active {
-    background-color: transparent;
+    background-color: #cc9900;
 }
 
 #close {
@@ -152,7 +152,7 @@ li a:hover:not(.active) {
 }
 
 .Ride-Offers {
-    background-color: yellow;
+    background-color: #cc9900;
 }
 
 .Actions {
@@ -171,7 +171,7 @@ li a:hover:not(.active) {
 }
 
 #googleMap {
-    background-image: url("../Assets/map111.jpg");
+    background-image: url("../Assets/map.jpg");
     background-repeat: no-repeat;
 }
 
@@ -289,7 +289,7 @@ body {
 }
 
 .col2 {
-    color: yellow;
+    color: #cc9900;
 }
 
 .action-body {
@@ -323,12 +323,12 @@ body {
 
 a {
     text-decoration: none;
-    color: #4d3d00;
+    color: #cc9900;
     transition: .5s ease;
 }
 
 a:hover {
-    color: #4d3d00;
+    color: #cc9900;
 }
 
 .form {
@@ -367,12 +367,12 @@ a:hover {
 }
 
 .tab-group li a:hover {
-    background: #4d3d00;
+    background: #cc9900;
     color: #ffffff;
 }
 
 .tab-group .active a {
-    background: #4d3d00;
+    background: #cc9900;
     color: #ffffff;
 }
 
@@ -401,7 +401,7 @@ label {
 
 label .req {
     margin: 2px;
-    color: #4d3d00;
+    color: #cc9900;
 }
 
 label.active {
@@ -437,7 +437,7 @@ textarea {
 input:focus,
 textarea:focus {
     outline: 0;
-    border-color: #4d3d00;
+    border-color: #cc9900;
 }
 
 textarea {
@@ -483,7 +483,7 @@ textarea {
 
 .button:hover,
 .button:focus {
-    background: #4d3d00;
+    background: #cc9900;
 }
 
 .button-block {
