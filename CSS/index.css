@@ -1,0 +1,563 @@
+#Page {
+    width: 100%;
+    padding-top: 0px;
+    /* The mage used */
+    background-image: url("../Assets/p2.jpg");
+    /* Full height */
+    height: 3500px;
+    /* Center and scale the image nicely */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 100px;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding-left: 44px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 40px;
+    margin-left: 50px;
+    text-decoration: none;
+    font-size: 50px;
+}
+
+li a:hover:not(.active) {
+    background-color: #cc9900;
+}
+
+.active {
+    background-color: #cc9900;
+}
+
+#close {
+    height: 40px;
+    padding-bottom: 30px;
+}
+
+#link1 {
+    padding-top: 70px;
+    font-size: 70px;
+    padding-bottom: 200px;
+}
+
+#link2 {
+    font-size: 70px;
+    padding-bottom: 200px;
+}
+
+#link3 {
+    font-size: 70px;
+    padding-bottom: 200px;
+}
+
+#link4 {
+    font-size: 70px;
+    padding-bottom: 200px;
+}
+
+#link5 {
+    font-size: 70px;
+    padding-bottom: 200px;
+}
+
+#mySidebar {
+    width: 20%;
+    padding-left: 5%;
+    display: none;
+    size: 80px;
+    position: fixed;
+}
+
+#quote {
+    font-size: 30px;
+    padding-left: 30%;
+    color: white;
+    padding-top: 900px;
+    font-size: 300px;
+}
+
+#quote1 {
+    font-size: 30px;
+    padding-left: 10%;
+    color: white;
+    padding-top: 100px;
+    font-size: 90px;
+}
+
+#FAQ {
+    background-image: url("../Assets/p1.jpg");
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 0px;
+    height: 4800px;
+    padding-left: 10%;
+    color: white;
+    margin-block-start: 0px;
+    ;
+}
+
+#question {
+    color: lightblue;
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    grid-template-rows: 3fr 3fr 3fr 3fr 3fr 3fr;
+    grid-gap: 8fr;
+    font-size: 50px;
+}
+
+#FAQHeading {
+    padding-left: 30%;
+}
+
+#input {
+    padding-left: 50%;
+}
+
+#textfield {
+    padding-top: 500px;
+    padding-left: 1%;
+}
+
+.afterLogin {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 5% 500% 50%;
+    grid-gap: 46%;
+    padding-top: 0px;
+    padding-left: 0px;
+}
+
+.Offer-Ride {
+    background-color: transparent;
+}
+
+.Ride-Offers {
+    background-color: #cc9900;
+}
+
+.Actions {
+    background-color: red;
+}
+
+.body-offer {
+    background-image: url("../Assets/b1.jpg");
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 0px;
+    color: white;
+    margin-block-start: 0px;
+}
+
+.body-class {
+    background-image: url("../Assets/b1.jpg");
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 0px;
+    color: white;
+    margin-block-start: 0px;
+}
+
+#googleMap {
+    background-image: url("../Assets/map.jpg");
+    background-repeat: no-repeat;
+}
+
+#googleMap1 {
+    background-image: url("../Assets/map2.jpg");
+    background-repeat: no-repeat;
+}
+
+#googleMap3 {
+    background-image: url("../Assets/p6.jpg");
+    background-repeat: no-repeat;
+}
+
+#actions {
+    padding-left: 900px;
+}
+
+
+/* Style the navbar */
+
+#navbar {
+    overflow: hidden;
+    background-color: transparent;
+    height: 50px;
+}
+
+
+/* Navbar links */
+
+#navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding-left: 90px;
+    padding-top: 10px;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    background-color: teal;
+}
+
+
+/* Page content */
+
+.content {
+    padding: 150px;
+}
+
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+
+.sticky+.content {
+    padding-top: 60px;
+}
+
+.gridfield {
+    display: grid;
+    grid-template-columns: 4fr 2fr 5fr;
+    grid-template-rows: 5fr;
+    grid-gap: 4fr;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 150px;
+}
+
+.gridfield1 {
+    display: grid;
+    grid-template-columns: 5fr 5fr 5fr 5fr 5fr;
+    grid-template-rows: 5fr;
+    grid-gap: 4fr;
+    padding-left: 100px;
+}
+
+.button4 {
+    border-radius: 12px;
+}
+
+.ride-offer {
+    display: grid;
+    grid-template-columns: 7fr;
+    grid-template-rows: 5fr;
+    grid-gap: 4fr;
+}
+
+html {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+body {
+    position: absolute;
+}
+
+.actions {
+    display: grid;
+    grid-template-columns: 500% 50%;
+    grid-template-rows: 100%;
+    grid-gap: 5fr;
+}
+
+.col1 {
+    color: blue;
+    height: 88888px;
+}
+
+.col2 {
+    color: #cc9900;
+}
+
+.action-body {
+    background-image: url("../Assets/p5.jpg");
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 0px;
+    color: white;
+    margin-block-start: 0px;
+}
+
+.nabarw {
+    color: white;
+}
+
+.register {
+    background-image: url("../Assets/p4.jpg");
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 0px;
+    color: white;
+    margin-block-start: 0px;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .afterLogincol-12 {
+        width: 100%;
+    }
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+html {
+    overflow-y: scroll;
+}
+
+body {
+    background: #c1bdba;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #cc9900;
+    transition: .5s ease;
+}
+
+a:hover {
+    color: #cc9900;
+}
+
+.form {
+    background: rgba(19, 35, 47, 0.9);
+    padding: 40px;
+    max-width: 600px;
+    margin: 40px auto;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+}
+
+.tab-group {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 40px 0;
+}
+
+.tab-group:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.tab-group li a {
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    background: rgba(160, 179, 176, 0.25);
+    color: #a0b3b0;
+    font-size: 20px;
+    float: left;
+    width: 50%;
+    text-align: center;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+.tab-group li a:hover {
+    background: #cc9900;
+    color: #ffffff;
+}
+
+.tab-group .active a {
+    background: #cc9900;
+    color: #ffffff;
+}
+
+.tab-content>div:last-child {
+    display: none;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    font-weight: 300;
+    margin: 0 0 40px;
+}
+
+label {
+    position: absolute;
+    -webkit-transform: translateY(6px);
+    transform: translateY(6px);
+    left: 13px;
+    color: rgba(255, 255, 255, 0.5);
+    transition: all 0.25s ease;
+    -webkit-backface-visibility: hidden;
+    pointer-events: none;
+    font-size: 22px;
+}
+
+label .req {
+    margin: 2px;
+    color: #cc9900;
+}
+
+label.active {
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px);
+    left: 2px;
+    font-size: 14px;
+}
+
+label.active .req {
+    opacity: 0;
+}
+
+label.highlight {
+    color: #ffffff;
+}
+
+input,
+textarea {
+    font-size: 22px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 5px 10px;
+    background: none;
+    background-image: none;
+    border: 1px solid #a0b3b0;
+    color: #ffffff;
+    border-radius: 0;
+    transition: border-color .25s ease, box-shadow .25s ease;
+}
+
+input:focus,
+textarea:focus {
+    outline: 0;
+    border-color: #cc9900;
+}
+
+textarea {
+    border: 2px solid #a0b3b0;
+    resize: vertical;
+}
+
+.field-wrap {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.top-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.top-row>div {
+    float: left;
+    width: 48%;
+    margin-right: 4%;
+}
+
+.top-row>div:last-child {
+    margin: 0;
+}
+
+.button {
+    border: 0;
+    outline: none;
+    border-radius: 0;
+    padding: 15px 0;
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    background: #cc9900;
+    color: #ffffff;
+    transition: all 0.5s ease;
+    -webkit-appearance: none;
+}
+
+.button:hover,
+.button:focus {
+    background: #cc9900;
+}
+
+.button-block {
+    display: block;
+    width: 100%;
+}
+
+.forgot {
+    margin-top: -20px;
+    text-align: right;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* Create two equal columns that floats next to each other */
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+    /* Should be removed. Only for demonstration */
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
