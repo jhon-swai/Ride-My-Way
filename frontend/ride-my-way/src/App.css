@@ -1,0 +1,35 @@
+
+.body {
+    width: 100%;
+    padding-top: 0px;
+    /* The mage used */
+    background-image: url("../src/assets/l1.jpg");
+    /* Full height */
+    height: 3500px;
+    /* Center and scale the image nicely */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: purple;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Nunito', sans-serif;
+}
+
+#quote {
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+    padding-left: 30%;
+    color: white;
+    padding-top: 900px;
+    font-size: 300px;
+}
+
+#quote1 {
+    font-size: 30px;
+    padding-left: 10%;
+    color: white;
+    padding-top: 100px;
+    font-size: 90px;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Nunito', sans-serif;
+}

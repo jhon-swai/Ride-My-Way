@@ -1,0 +1,37 @@
+
+
+#FAQ {
+    background-image: url("/src/assets/b1.jpg");
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 0px;
+    height: 4800px;
+    padding-left: 10%;
+    color: white;
+    margin-block-start: 0px;
+
+    ;
+}
+
+#question {
+    color: lightblue;
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    grid-template-rows: 3fr 3fr 3fr 3fr 3fr 3fr;
+    grid-gap: 8fr;
+    font-size: 50px;
+}
+
+#FAQHeading {
+    padding-left: 30%;
+}
+
+#input {
+    padding-left: 50%;
+}
+
+#textfield {
+    padding-top: 300px;
+    padding-left: 1%;
+}

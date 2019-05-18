@@ -553,6 +553,12 @@ textarea {
     clear: both;
 }
 
+.actions {
+    display: grid;
+    grid-template-columns: 1000px 1000px;
+    grid-auto-rows: 1000px;
+}
+
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 
